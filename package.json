@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "analyze": "nuxt build --analyze",
+    "generate": "nuxt generate",
+    "serve": "serve dist"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.4.3",
+    "serve": "^10.1.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
+  }
+}

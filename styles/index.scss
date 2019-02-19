@@ -1,0 +1,13 @@
+$color: #123;
+
+html {
+  font-size: 20px;
+  font-family: Monaco, monospace;
+  color: $color;
+}
+
+a {
+  color: $color;
+  text-decoration: none;
+  border-bottom: 2px solid $color;
+}
