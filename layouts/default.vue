@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="default-layout">
     <v-nav :links="links"/>
     <nuxt/>
   </div>
@@ -30,3 +30,11 @@ export default {
   }
 };
 </script>
+
+<style>
+.default-layout {
+  padding: 1rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+</style>
