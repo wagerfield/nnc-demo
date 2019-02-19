@@ -3,6 +3,8 @@ $color: #123;
 html {
   font-size: 20px;
   font-family: Monaco, monospace;
+  background-color: palegreen;
+  min-height: 100vh;
   color: $color;
 }
 
