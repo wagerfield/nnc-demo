@@ -18,6 +18,10 @@ export default {
       {
         path: "/about",
         text: "About"
+      },
+      {
+        path: "/broken",
+        text: "Broken"
       }
     ]
   }),
